@@ -16,7 +16,7 @@ def min_swaps(total_damage, string):
 
     s_so_far = 0
     swaps = 0
-    # let's try to minimize damage with minimum swaps
+    # reduce the damage caused by robot in minimum swaps 
     for e in reversed(string):
         if e == 'S':
             s_so_far += 1
