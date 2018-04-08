@@ -36,6 +36,6 @@ if __name__ == '__main__':
     t = int(input())
     for x in range(1, t + 1):
         td, s = input().strip().split()
-        D = int(td)
+        td = int(td)
         ans = min_swaps(td, s)
         print('Case #{}: {}'.format(x, ans))
